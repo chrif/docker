@@ -1,4 +1,4 @@
-FROM docker
+FROM docker:17.12.0-ce
 
 RUN apk update \
 	&& apk add  --no-cache git openssh-client rsync curl py-pip php7 \
